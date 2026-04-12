@@ -44,10 +44,10 @@
         "uiTheme": "vs-dark",  
         "path": "themes/AlchemyDark.json"  
       },  
-      {  
-        "label": "Alchemy Light",  
-        "uiTheme": "vs",  
-        "path": "themes/AlchemyLight.json"  
+      {
+        "label": "Alchemy Light",
+        "uiTheme": "vs-dark",
+        "path": "themes/AlchemyLight.json"
       },  
       {  
         "label": "Rose Shadow Dark",  
