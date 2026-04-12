@@ -1,0 +1,64 @@
+{  
+  "name": "ukiyo-themes",  
+  "displayName": "Ukiyo Themes",  
+  "description": "A collection of Ukiyo color schemes for VS Code.",  
+  "version": "0.0.1",  
+  "publisher": "nzkdevsaider",  
+  "engines": {  
+    "vscode": ">=1.60.0"  
+  },  
+  "contributes": {  
+    "themes": [  
+      {  
+        "label": "Cozy Typewriter Dark",  
+        "uiTheme": "vs-dark",  
+        "path": "themes/CozyTypewriterDark.json"  
+      },  
+      {  
+        "label": "Cozy Typewriter Light",  
+        "uiTheme": "vs",  
+        "path": "themes/CozyTypewriterLight.json"  
+      },  
+      {  
+        "label": "Ukiyo Dark",  
+        "uiTheme": "vs-dark",  
+        "path": "themes/UkiyoDark.json"  
+      },  
+      {  
+        "label": "Ukiyo Light",  
+        "uiTheme": "vs",  
+        "path": "themes/UkiyoLight.json"  
+      },  
+      {  
+        "label": "Golden Coffee Dark",  
+        "uiTheme": "vs-dark",  
+        "path": "themes/GoldenCoffeeDark.json"  
+      },  
+      {  
+        "label": "Golden Coffee Light",  
+        "uiTheme": "vs",  
+        "path": "themes/GoldenCoffeeLight.json"  
+      },  
+      {  
+        "label": "Alchemy Dark",  
+        "uiTheme": "vs-dark",  
+        "path": "themes/AlchemyDark.json"  
+      },  
+      {  
+        "label": "Alchemy Light",  
+        "uiTheme": "vs",  
+        "path": "themes/AlchemyLight.json"  
+      },  
+      {  
+        "label": "Rose Shadow Dark",  
+        "uiTheme": "vs-dark",  
+        "path": "themes/RoseShadowDark.json"  
+      },  
+      {  
+        "label": "Golden Book Dark",  
+        "uiTheme": "vs-dark",  
+        "path": "themes/GoldenBookDark.json"  
+      }  
+    ]  
+  }  
+}
