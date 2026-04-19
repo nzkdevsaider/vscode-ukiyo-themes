@@ -4,6 +4,7 @@
   "description": "A collection of cozy typewriter themes for Visual Studio Code, inspired by the aesthetics of Ukiyo-e art.",
   "version": "0.3.1",
   "publisher": "nzkdevsaider",
+  "icon": "assets/avatar.jpg",
   "repository": {
     "type": "git",
     "url": "https://github.com/nzkdevsaider/vscode-ukiyo-themes"
