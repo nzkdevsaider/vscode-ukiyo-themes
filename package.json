@@ -2,7 +2,7 @@
   "name": "ukiyo-themes",
   "displayName": "Ukiyo Themes",
   "description": "A collection of cozy typewriter themes for Visual Studio Code, inspired by the aesthetics of Ukiyo-e art.",
-  "version": "0.2.0",
+  "version": "0.3.1",
   "publisher": "nzkdevsaider",
   "engines": {
     "vscode": "^1.115.0"
