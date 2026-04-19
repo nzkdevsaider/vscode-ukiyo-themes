@@ -215,7 +215,31 @@
     "menu.separatorBackground": "#d0c4b4",
     "menu.border": "#c8b8a0",
     "menubar.selectionBackground": "#e4d8c8",
-    "menubar.selectionForeground": "#2c2018"
+    "menubar.selectionForeground": "#2c2018",
+
+    "editorBracketHighlight.foreground1": "#1a6ea8",
+    "editorBracketHighlight.foreground2": "#7a4f0a",
+    "editorBracketHighlight.foreground3": "#1a7a50",
+    "editorBracketHighlight.foreground4": "#6040a0",
+    "editorBracketHighlight.foreground5": "#a02828",
+    "editorBracketHighlight.foreground6": "#a0520a",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#a02828",
+
+    "editorInlayHint.foreground": "#9a8878",
+    "editorInlayHint.background": "#e4d8c880",
+    "editorInlayHint.typeForeground": "#1a7a50",
+    "editorInlayHint.typeBackground": "#e4d8c880",
+    "editorInlayHint.parameterForeground": "#a0520a",
+    "editorInlayHint.parameterBackground": "#e4d8c880",
+
+    "editorGhostText.foreground": "#b8a89880",
+
+    "minimap.background": "#f5efe6",
+    "minimap.selectionHighlight": "#d0b89060",
+    "minimap.findMatchHighlight": "#8a6d3e60",
+    "minimapSlider.background": "#c8b8a020",
+    "minimapSlider.hoverBackground": "#c8b8a040",
+    "minimapSlider.activeBackground": "#c8b8a060"
   },
   "tokenColors": [
     {
@@ -455,6 +479,46 @@
       "name": "Invalid / Deprecated",
       "scope": ["invalid", "invalid.illegal"],
       "settings": { "foreground": "#a02828", "fontStyle": "underline" }
+    },
+    {
+      "name": "Language variables (this, self, super)",
+      "scope": ["variable.language"],
+      "settings": { "foreground": "#6040a0", "fontStyle": "italic" }
+    },
+    {
+      "name": "Class method names",
+      "scope": ["entity.name.function.method", "meta.method entity.name.function"],
+      "settings": { "foreground": "#7a4f0a" }
+    },
+    {
+      "name": "Arrow function operator",
+      "scope": ["storage.type.function.arrow", "keyword.operator.arrow"],
+      "settings": { "foreground": "#1a6ea8" }
+    },
+    {
+      "name": "HTML/JSX tag punctuation",
+      "scope": ["punctuation.definition.tag", "punctuation.definition.tag.begin", "punctuation.definition.tag.end"],
+      "settings": { "foreground": "#b8a898" }
+    },
+    {
+      "name": "Support constants (Math.PI, etc.)",
+      "scope": ["support.constant", "support.constant.math", "support.constant.dom"],
+      "settings": { "foreground": "#6040a0" }
+    },
+    {
+      "name": "Support variables (console, window, document)",
+      "scope": ["support.variable", "support.variable.dom", "support.class.dom"],
+      "settings": { "foreground": "#1a6ea8" }
+    },
+    {
+      "name": "Markdown fenced code block",
+      "scope": ["markup.fenced_code.block", "markup.raw.block"],
+      "settings": { "foreground": "#1a7a50" }
+    },
+    {
+      "name": "JSX/TSX component names",
+      "scope": ["support.class.component", "entity.name.tag.tsx", "entity.name.tag.jsx"],
+      "settings": { "foreground": "#1a7a50" }
     }
   ]
 }
