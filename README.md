@@ -4,10 +4,10 @@
 
 # Ukiyo Themes
 
+[VSCode Marketplace page](https://marketplace.visualstudio.com/items?itemName=nzkdevsaider.ukiyo-themes)
+
 **A collection of cozy, ink-and-paper color schemes for Visual Studio Code.**  
 
-[![Version](https://img.shields.io/visual-studio-marketplace/v/nzkdevsaider.ukiyo-themes?style=flat-square&color=b5a28a)](https://marketplace.visualstudio.com/items?itemName=nzkdevsaider.ukiyo-themes)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/nzkdevsaider.ukiyo-themes?style=flat-square&color=b5a28a)](https://marketplace.visualstudio.com/items?itemName=nzkdevsaider.ukiyo-themes)
 [![License: MIT](https://img.shields.io/badge/License-MIT-b5a28a?style=flat-square)](./LICENSE)
 
 </div>
